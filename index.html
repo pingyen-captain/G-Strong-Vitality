@@ -75,6 +75,8 @@
                 <a href="#solution" class="font-medium hover:text-orange-500 transition-colors">解決方案</a>
                 <a href="#features" class="font-medium hover:text-orange-500 transition-colors">核心功能</a>
                 <a href="#impact" class="font-medium hover:text-orange-500 transition-colors">預期效益</a>
+                <a href="#testimonials" class="font-medium hover:text-orange-500 transition-colors">學員心聲</a>
+                <a href="#faq" class="font-medium hover:text-orange-500 transition-colors">FAQ</a>
                 <button class="bg-orange-500 text-white px-6 py-2 rounded-full font-bold hover:bg-orange-600 transition-all shadow-lg hover:shadow-orange-500/30">
                     立即體驗
                 </button>
@@ -92,6 +94,8 @@
             <a href="#solution" onclick="toggleMobileMenu()" class="text-left font-medium py-2 border-b block">解決方案</a>
             <a href="#features" onclick="toggleMobileMenu()" class="text-left font-medium py-2 border-b block">核心功能</a>
             <a href="#impact" onclick="toggleMobileMenu()" class="text-left font-medium py-2 border-b block">預期效益</a>
+            <a href="#testimonials" onclick="toggleMobileMenu()" class="text-left font-medium py-2 border-b block">學員心聲</a>
+            <a href="#faq" onclick="toggleMobileMenu()" class="text-left font-medium py-2 border-b block">FAQ</a>
             <button class="bg-orange-500 text-white px-6 py-3 rounded-lg font-bold text-center mt-2 w-full">
                 立即體驗
             </button>
@@ -516,6 +520,167 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section 學員心聲 -->
+    <section id="testimonials" class="py-20 bg-orange-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-6">
+                <div class="inline-block bg-orange-100 text-orange-700 text-sm font-semibold px-4 py-2 rounded-full mb-4">TESTIMONIALS</div>
+                <h2 class="text-3xl lg:text-4xl font-bold mb-4">真實學員的訓練成果</h2>
+                <p class="text-slate-600 text-lg">每一位長輩的進步，都有量化數據可以驗證</p>
+            </div>
+
+            <!-- Stats Bar -->
+            <div class="grid grid-cols-3 gap-4 max-w-2xl mx-auto mb-12">
+                <div class="text-center">
+                    <div class="text-3xl font-extrabold text-orange-500">98%</div>
+                    <div class="text-sm text-slate-500">學員滿意度</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-extrabold text-orange-500">71歲</div>
+                    <div class="text-sm text-slate-500">平均年齡</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-extrabold text-orange-500">2,400+</div>
+                    <div class="text-sm text-slate-500">累計訓練堂數</div>
+                </div>
+            </div>
+
+            <!-- Testimonial Cards -->
+            <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <!-- Card 1: 72歲台北 -->
+                <a href="testimonials/1.html" class="bg-white rounded-2xl p-6 shadow-md hover:shadow-xl transition-all group border border-slate-100 block">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex items-center gap-2">
+                            <div class="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center">
+                                <i data-lucide="user" class="w-5 h-5 text-orange-600"></i>
+                            </div>
+                            <div>
+                                <div class="font-bold text-slate-800">72歲・台北</div>
+                            </div>
+                        </div>
+                        <span class="bg-orange-100 text-orange-700 text-xs font-semibold px-2 py-1 rounded-full">肌力訓練</span>
+                    </div>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">「本來走樓梯膝蓋都會痛，練了三個月之後，現在可以自己上下樓了。」</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-green-50 text-green-700 text-xs px-2 py-1 rounded">膝蓋疼痛改善</span>
+                        <span class="bg-green-50 text-green-700 text-xs px-2 py-1 rounded">上下樓梯能力恢復</span>
+                    </div>
+                    <div class="text-orange-500 text-sm font-semibold group-hover:translate-x-1 transition-transform flex items-center gap-1">
+                        查看訓練進步數據 <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                    </div>
+                </a>
+
+                <!-- Card 2: 68歲新北 -->
+                <a href="testimonials/2.html" class="bg-white rounded-2xl p-6 shadow-md hover:shadow-xl transition-all group border border-slate-100 block">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex items-center gap-2">
+                            <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
+                                <i data-lucide="user" class="w-5 h-5 text-blue-600"></i>
+                            </div>
+                            <div>
+                                <div class="font-bold text-slate-800">68歲・新北</div>
+                            </div>
+                        </div>
+                        <span class="bg-blue-100 text-blue-700 text-xs font-semibold px-2 py-1 rounded-full">平衡訓練</span>
+                    </div>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">「之前跌倒過一次之後就很怕走路，教練教我做平衡運動，現在走路比較有自信了。」</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-green-50 text-green-700 text-xs px-2 py-1 rounded">平衡感提升</span>
+                        <span class="bg-green-50 text-green-700 text-xs px-2 py-1 rounded">行走信心恢復</span>
+                    </div>
+                    <div class="text-orange-500 text-sm font-semibold group-hover:translate-x-1 transition-transform flex items-center gap-1">
+                        查看訓練進步數據 <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                    </div>
+                </a>
+
+                <!-- Card 3: 75歲台中 -->
+                <a href="testimonials/3.html" class="bg-white rounded-2xl p-6 shadow-md hover:shadow-xl transition-all group border border-slate-100 block">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex items-center gap-2">
+                            <div class="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center">
+                                <i data-lucide="user" class="w-5 h-5 text-purple-600"></i>
+                            </div>
+                            <div>
+                                <div class="font-bold text-slate-800">75歲・台中</div>
+                            </div>
+                        </div>
+                        <span class="bg-purple-100 text-purple-700 text-xs font-semibold px-2 py-1 rounded-full">復健訓練</span>
+                    </div>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">「中風後左手一直舉不太起來，治療師和教練配合得很好，現在可以自己梳頭髮了。」</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-green-50 text-green-700 text-xs px-2 py-1 rounded">上肢活動度改善</span>
+                        <span class="bg-green-50 text-green-700 text-xs px-2 py-1 rounded">日常生活自理提升</span>
+                    </div>
+                    <div class="text-orange-500 text-sm font-semibold group-hover:translate-x-1 transition-transform flex items-center gap-1">
+                        查看訓練進步數據 <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section 常見問題 -->
+    <section id="faq" class="py-20 bg-white">
+        <div class="container mx-auto px-6 max-w-3xl">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl lg:text-4xl font-bold mb-4">常見問題</h2>
+                <p class="text-slate-600 text-lg">關於 G+壯拾力 的一切，我們在這裡回答</p>
+            </div>
+
+            <div class="space-y-4">
+                <details class="bg-slate-50 rounded-xl border border-slate-200 group">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer list-none font-bold text-lg text-slate-800 hover:text-orange-500 transition-colors">
+                        教練/治療師會到家裡來嗎？
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-slate-400 group-open:rotate-180 transition-transform"></i>
+                    </summary>
+                    <div class="px-6 pb-6 text-slate-600">
+                        是的！G+壯拾力 的核心就是「居家訓練」。我們媒合的物理治療師和專業教練會到府服務，讓長輩在熟悉的環境中安心訓練。每次上課都有 GPS 簽到和 QR Code 確認，確保服務品質。
+                    </div>
+                </details>
+
+                <details class="bg-slate-50 rounded-xl border border-slate-200 group">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer list-none font-bold text-lg text-slate-800 hover:text-orange-500 transition-colors">
+                        長輩不太會用手機怎麼辦？
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-slate-400 group-open:rotate-180 transition-transform"></i>
+                    </summary>
+                    <div class="px-6 pb-6 text-slate-600">
+                        我們獨創「子母帳號」機制！子女用母帳號幫長輩預約、付費、查看報告，長輩的子帳號只保留三個大按鈕：開始上課、SOS 求救、我的進步。完全不需要會用複雜的手機操作。
+                    </div>
+                </details>
+
+                <details class="bg-slate-50 rounded-xl border border-slate-200 group">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer list-none font-bold text-lg text-slate-800 hover:text-orange-500 transition-colors">
+                        費用怎麼算？
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-slate-400 group-open:rotate-180 transition-transform"></i>
+                    </summary>
+                    <div class="px-6 pb-6 text-slate-600">
+                        費用依訓練類型和教練資歷而定，一般居家肌力訓練每堂約 NT$800-1,500。平台提供透明的價格顯示，子女可用母帳號綁定信用卡付費，長輩不需要處理金流。
+                    </div>
+                </details>
+
+                <details class="bg-slate-50 rounded-xl border border-slate-200 group">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer list-none font-bold text-lg text-slate-800 hover:text-orange-500 transition-colors">
+                        訓練安全嗎？長輩有慢性病可以練嗎？
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-slate-400 group-open:rotate-180 transition-transform"></i>
+                    </summary>
+                    <div class="px-6 pb-6 text-slate-600">
+                        安全是我們最重視的。初次訓練前，物理治療師會進行完整的體適能評估，考量慢性病（如高血壓、糖尿病、洗腎等）後制定個人化運動處方。訓練過程全程監測心率，且每堂課都產出 SOAP 醫療級紀錄。
+                    </div>
+                </details>
+
+                <details class="bg-slate-50 rounded-xl border border-slate-200 group">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer list-none font-bold text-lg text-slate-800 hover:text-orange-500 transition-colors">
+                        目前哪些地區有服務？
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-slate-400 group-open:rotate-180 transition-transform"></i>
+                    </summary>
+                    <div class="px-6 pb-6 text-slate-600">
+                        目前優先服務雲嘉南地區（雲林、嘉義、台南），並逐步擴展至其他縣市。如果您在其他地區，歡迎先登記，我們會在開通時通知您。
+                    </div>
+                </details>
             </div>
         </div>
     </section>
